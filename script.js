@@ -78,11 +78,7 @@ function toggleDrums() {
         drumBg.classList.add('bgOn')
     }
 }
-document.addEventListener('currentTime', k => {
-    console.log(k.currentTime)
-})
-
-
+// https://www.html5rocks.com/en/mobile/touch/
 document.addEventListener('touchmove', function(event) {
     for (var i = 0; i < event.touches.length; i++) {
       var touch = event.touches[i];

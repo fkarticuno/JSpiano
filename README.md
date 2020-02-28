@@ -4,7 +4,7 @@ This web-app uses HTML, JAVASCRIPT and CSS to simulate a piano and has an accomp
 
 ## [Try it yourself!](https://https://fkarticuno.github.io/JSpiano) 
 
-![image](https://fkarticuno.github.io/CodingPortfolio/Assets/Images/00.png)
+![image](https://fkarticuno.github.io/CodingPortfolio/Assets/Images/20.png)
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ $ git clone github.com:fkarticuno/JSpiano.git
 ````
 
 ## Built With
-[Tutorial](https://www.youtube.com/watch?v=vjco5yKZpU8)
+- [Tutorial](https://www.youtube.com/watch?v=vjco5yKZpU8)
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - How to use flexbox to center elements
 - [Css Var](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Using CSS variables to reduce redundant code
 - [OrangeFreeSounds](http://www.orangefreesounds.com/) - Playing audio in the browser
