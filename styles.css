@@ -65,17 +65,21 @@ body{
     flex-direction: column;
     margin-right: 2px;
 }
-
 .drumImg.bgOn {
     background: linear-gradient(188deg, #143F6b, #ffffff);
     border: 1px solid black;
 }
 
+@media screen and (max-width: 770px) {
+    body {
+        transform: rotate(90deg);
+        background-size: 200% 200%;
+    }
+}
 @media screen and (max-width: 550px) {
     body {
         zoom: 50%;
         transform: rotate(90deg);
-        margin-top: 50vh;
+        background-size: 200% 200%;
     }
-    
 }
