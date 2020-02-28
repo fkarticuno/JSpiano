@@ -11,7 +11,7 @@ body{
 }
 .header {
     font-family: "Sofia", cursive;
-    border: 1px solid #FFF;
+    border: 2px solid #FFF;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px 5px 0px 25px;
@@ -31,7 +31,7 @@ body{
     height: calc(var(--width)*4);
     width: var(--width);
     text-align: center; 
-    border: 1px solid;
+    border: 2px solid;
 }
 .white {
     --width: 100px;
@@ -72,14 +72,13 @@ body{
 
 @media screen and (max-width: 770px) {
     body {
-        transform: rotate(90deg);
-        background-size: 200% 200%;
+        zoom: .75;
+        background-size: 400% 400%;
     }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 568px) {
     body {
-        zoom: 50%;
-        transform: rotate(90deg);
-        background-size: 200% 200%;
+        zoom: .5;
+        background-size: 400% 400%;
     }
 }
