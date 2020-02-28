@@ -70,3 +70,12 @@ body{
     background: linear-gradient(188deg, #143F6b, #ffffff);
     border: 1px solid black;
 }
+
+@media screen and (max-width: 550px) {
+    body {
+        zoom: 50%;
+        transform: rotate(90deg);
+        margin-top: 50vh;
+    }
+    
+}
