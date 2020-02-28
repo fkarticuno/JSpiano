@@ -20,6 +20,10 @@ body{
     --width: 100px;
     height: var(--width);
 }
+.cont {
+    display: flex;
+    flex-direction: row;
+}
 .piano {
     display: flex;
 }
@@ -61,7 +65,8 @@ body{
     flex-direction: column;
     margin-right: 2px;
 }
-.cont {
-    display: flex;
-    flex-direction: row;
+
+.drumImg.bgOn {
+    background: linear-gradient(188deg, #143F6b, #ffffff);
+    border: 1px solid black;
 }

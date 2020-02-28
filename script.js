@@ -68,10 +68,15 @@ document.addEventListener('keydown', e => {
 })
 function toggleDrums() {
     var curTime = document.getElementsByClassName('drums')[0].currentTime
+    var drumBg = document.getElementsByClassName('drumImg')[0]
     if (curTime > 0) {
         drums.pause()
         drums.currentTime = 0
-    } else drums.play()
+        drumBg.classList.remove('bgOn')
+    } else {
+        drums.play()
+        drumBg.classList.add('bgOn')
+    }
 }
 document.addEventListener('currentTime', k => {
     console.log(k.currentTime)
