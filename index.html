@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>JS-Piano</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Le Piano</h1>
+    </div>
+    <br>
+    <div class="cont">
+        <div class="col">Click for Drums
+            <img class="drumImg" onclick="toggleDrums()" src="DKicon.png" />
+        </div>
+        <div class="piano">
+            <div data-note="C" class="key white"></div>
+            <div data-note="Db" class="key black"></div>
+            <div data-note="D" class="key white"></div>
+            <div data-note="Eb" class="key black"></div>
+            <div data-note="E" class="key white"></div>
+            <div data-note="F" class="key white"></div>
+            <div data-note="Gb" class="key black"></div>
+            <div data-note="G" class="key white"></div>
+            <div data-note="Ab" class="key black"></div>
+            <div data-note="A" class="key white"></div>
+            <div data-note="Bb" class="key black"></div>
+            <div data-note="B" class="key white"></div>
+        </div>
+    </div>
+    <br>
+    <div class="instructions"> Click keys or use keyboard black [ S D F G H ] white [ Z X C V B N M ]</div>
+    <input type="range" min="0" max="100" value="100" id="volSlider" onchange="changeVolume()"/>
+    <div id="volume">Vol: 100</div>
+    
+    <audio class="snd" id="C" src="Notes/C.mp3"></audio>
+    <audio class="snd" id="Db" src="Notes/Db.mp3"></audio>
+    <audio class="snd" id="D" src="Notes/D.mp3"></audio>
+    <audio class="snd" id="Eb" src="Notes/Eb.mp3"></audio>
+    <audio class="snd" id="E" src="Notes/E.mp3"></audio>
+    <audio class="snd" id="F" src="Notes/F.mp3"></audio>
+    <audio class="snd" id="Gb" src="Notes/Gb.mp3"></audio>
+    <audio class="snd" id="G" src="Notes/G.mp3"></audio>
+    <audio class="snd" id="Ab" src="Notes/Ab.mp3"></audio>
+    <audio class="snd" id="A" src="Notes/A.mp3"></audio>
+    <audio class="snd" id="Bb" src="Notes/Bb.mp3"></audio>
+    <audio class="snd" id="B" src="Notes/B.mp3"></audio>
+    <audio class="drums" src="Notes/Bossa-nova-beat-loop-65-bpm.mp3"></audio>
+    <!-- Drum beats from http://www.orangefreesounds.com/bossa-nova-beat-loop/ -->
+</body>
+</html>
