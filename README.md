@@ -2,7 +2,7 @@
 
 This web-app uses HTML, JAVASCRIPT and CSS to simulate a piano and has an accompanying drum track to play along with. JSpiano tracks mouse clicks and key presses to play notes and adjust volume. 
 
-## [Try it yourself!](https://https://fkarticuno.github.io/JSpiano) 
+## [Try it yourself!](https://fkarticuno.github.io/JSpiano/) 
 
 ![image](https://fkarticuno.github.io/CodingPortfolio/Assets/Images/20.png)
 
