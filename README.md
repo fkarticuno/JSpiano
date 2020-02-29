@@ -28,7 +28,7 @@ $ git clone github.com:fkarticuno/JSpiano.git
 ````
 
 ## Built With
-- [Tutorial](https://www.youtube.com/watch?v=vjco5yKZpU8)
+- [Tutorial](https://www.youtube.com/watch?v=vjco5yKZpU8) - Basic Piano setup
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - How to use flexbox to center elements
 - [Css Var](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Using CSS variables to reduce redundant code
 - [OrangeFreeSounds](http://www.orangefreesounds.com/) - Playing audio in the browser
